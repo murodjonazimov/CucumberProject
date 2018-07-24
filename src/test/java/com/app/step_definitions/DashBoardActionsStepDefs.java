@@ -15,11 +15,12 @@ public class DashBoardActionsStepDefs {
 	@When("^I post \"([^\"]*)\"$")
 	public void i_post(String note) {
 		dashboardPage.postNote(note);
+		System.out.println("wow");
 	}
 
 	@Then("^Post should be displayed$")
 	public void post_should_be_displayed() {
-	   
+		System.out.println("wow");
 	}
 	
 	@Then("^I logout from application$")
